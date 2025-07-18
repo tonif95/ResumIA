@@ -43,7 +43,7 @@ function App() {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 segundos timeout
 
-      const response = await fetch('https://n8n-k674.onrender.com/webhook/886247b6-0590-49aa-95a2-9f4c747f4ec9', {
+      const response = await fetch('https://n8n-k674.onrender.com/webhook-test/886247b6-0590-49aa-95a2-9f4c747f4ec9', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
