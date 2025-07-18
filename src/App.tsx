@@ -245,8 +245,7 @@ function App() {
         {/* Footer */}
         <div className="text-center mt-12 text-gray-500">
           <p className="text-sm">
-            Desarrollado con React y Tailwind CSS • 
-            Procesamiento inteligente de contenido web
+            © {new Date().getFullYear()} Antoni Ferrandis • Desarrollado con React , Tailwind CSS y n8n 
           </p>
         </div>
       </div>
